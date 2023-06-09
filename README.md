@@ -35,18 +35,32 @@ Pré-requisitos: Java 11 +
 # Criar banco de dados
 
 # Criar o container PostgreSql
-docker run --name maxmilhas_db -e POSTGRES_PASSWORD=psql -p 5433:5432 -d postgres
+docker run --name cpf_db -e POSTGRES_PASSWORD=psql -p 5433:5432 -d postgres
 
 #Criar tabela
-docker exec -it maxmilhas_db createdb -U postgres maxmilhas
+docker exec -it cpf_db createdb -U postgres cpf_recorver
 
 
 # executar o projeto
 ./mvnw spring-boot:run
 ```
 
-# Autor
+### Developer
 
-Christopher Silva de Sousa
-
-https://www.linkedin.com/in/christopher-silva-857205205/# Cpf-Recorver
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/christophersousa/">
+        <img src="https://avatars.githubusercontent.com/u/61100762?s=400&u=791f8def6d6d9f23809227af4c69ccd16f4a6112&v=4" width="100px;" alt="Christopher Sousa"/>
+        <br />
+        <sub>
+          <b>Christopher Sousa</b>
+        </sub>
+       </a>
+       <br />
+        <a href="https://www.linkedin.com/in/christopher-silva-857205205/" title="Linkedin">@christophersousa</a>
+       <br />
+       <a href="https://github.com/christophersousa/" title="Code">💻</a>
+    </td>
+    
+</table>
