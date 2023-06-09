@@ -1,8 +1,8 @@
-# Desafio Técnico Backend
+# Entendimento de  Backend
 
-## Sobre o teste
+## Sobre a aplicação
 
-O teste consiste em criar uma api de cadastro e validação de cpf, onde o principal objetivo é o cadastro seguro de CPF.
+A aplicação consiste em criar uma api de cadastro e validação de cpf, onde o principal objetivo é o cadastro seguro de CPF.
 
 # Tecnologias utilizadas
 ## Back end
